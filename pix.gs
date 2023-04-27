@@ -50,7 +50,7 @@ function crc_ccitt_ffff(str) {
 
 function main() {
 
-  var chave = '12345678900';      //pode ser qualquer das chaves.... em caso de ser o celular, usar '+55......'
+  var chave = '12345678900';      //pode ser quaisquer das chaves.... em caso de ser o celular, usar '+55......'
   var destinatario = 'Joao Pe de Feijao';
   var cidade = 'Niteroi-RJ';
   var descr_pix = 'despesas futeis'
