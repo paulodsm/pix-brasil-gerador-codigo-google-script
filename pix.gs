@@ -51,9 +51,9 @@ function crc_ccitt_ffff(str) {
 function main() {
 
   var chave = '12345678900';      //podem ser quaisquer das chaves.... em caso de ser o celular, usar '+55DDNNNNNNNNN'
-  var destinatario = 'Joao Pe de Feijao';    // apenas um texto com o nome da pessoa, apenas para aparecer na string final. o que vale mesmo é a chave.
-  var cidade = 'Niteroi-RJ';    //tbm apenas um texto para aparecer na string final
-  var descr_pix = 'despesas futeis'   //tbm apenas um texto para aparecer na string final
+  var destinatario = 'Joao Pe de Feijao'.slice(0,25);  //texto limitado a 25 caracteres com o nome da pessoa, apenas para aparecer na string final. o que vale mesmo é a chave.
+  var cidade = 'Niteroi-RJ';    //texto para aparecer na string final
+  var descr_pix = 'despesas futeis'   //texto para aparecer na string final
   var valor = '0.99';  // decimal usando ponto
 
 
